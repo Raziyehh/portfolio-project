@@ -1,18 +1,100 @@
-body {
-  background-color: #f7f3ff;
+:root {
+  --content-color: #f7e6ad;
+  --pic-color: #f6d7a7;
+  --content-font: "Rubik", sans-serif;
+  --logo-font: "Londrina Outline", cursive;
+
+  /* font-family: "Fredericka the Great", cursive;
+  font-family: "Sacramento", cursive; */
 }
+
+/* .col-center {
+  padding: 22vh 0;
+} */
+
+body {
+  background-color: #f7f7f7;
+}
+
+h1,
+h3,
+.col-center p {
+  font-family: var(--content-font);
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.pic-color {
+  background-color: var(--pic-color);
+}
+
+.content-color {
+  background-color: var(--content-color);
+}
+
+.col-logo {
+  font-family: var(--logo-font);
+  font-size: 61px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35vh;
+  margin-left: -3vw;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-size: 61px;
+  margin-left: -3vw;
+  margin-top: -7vh;
+}
+
+.col-contant h1 {
+  margin-left: -4vw;
+}
+.col-contant h3 {
+  margin-left: -4vw;
+}
+
+.col-contant p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-left: -4vw;
+  margin-right: 6vw;
+}
+
+.SheCodes-logo {
+  width: 7vw;
+}
+
+.contact-link {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: -4vw;
+}
+
+a:hover {
+  color: brown;
+}
+
 .col-above,
 .col-bottom {
   padding: 8vh 0;
 }
 
-.col-center {
+.Col-pic-above {
   padding: 22vh 0;
 }
-
-.Col-pic-above {
-  padding: 17vh 0;
-}
 .col-pic-bottom {
-  padding: 5vh 0;
+  padding: 4vh 0;
 }
