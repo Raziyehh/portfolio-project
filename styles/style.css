@@ -1,0 +1,18 @@
+body {
+  background-color: #f7f3ff;
+}
+.col-above,
+.col-bottom {
+  padding: 8vh 0;
+}
+
+.col-center {
+  padding: 22vh 0;
+}
+
+.Col-pic-above {
+  padding: 17vh 0;
+}
+.col-pic-bottom {
+  padding: 5vh 0;
+}
