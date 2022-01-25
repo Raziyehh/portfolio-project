@@ -41,6 +41,7 @@ h3 {
   color: black;
   font-size: 2vh;
   padding: 1vh 1vw;
+  text-decoration: none;
 }
 
 .col-logo {
@@ -48,7 +49,7 @@ h3 {
   font-size: 61px;
   display: flex;
   flex-direction: column;
-  margin-top: 35vh;
+  margin-top: 30vh;
   margin-left: -3vw;
 }
 
@@ -56,7 +57,7 @@ h3 {
   font-family: var(--logo-font);
   font-size: 61px;
   margin-left: -3vw;
-  margin-top: -7vh;
+  margin-top: -3vh;
 }
 
 .col-contant h1 {
@@ -103,4 +104,31 @@ a:hover {
 }
 .col-pic-bottom {
   padding: 4vh 0;
+}
+
+@media (max-width: 760px) {
+  .navbar-section {
+    height: 20vh;
+    width: 100%;
+  }
+
+  .col-contant {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+  }
+
+  .col-contant h1 {
+    margin: 1vh 1vw;
+  }
+  .col-contant h3 {
+    margin: 1vh 1vw;
+  }
+  .col-contant p {
+    margin: 5vh 4vw;
+  }
+
+  .contact-link {
+    margin-left: 1vw;
+  }
 }
