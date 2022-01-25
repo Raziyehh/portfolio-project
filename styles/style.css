@@ -61,17 +61,17 @@ h3 {
 }
 
 .col-contant h1 {
-  margin-left: -4vw;
+  margin-left: -3vw;
 }
 .col-contant h3 {
-  margin-left: -4vw;
+  margin-left: -3vw;
 }
 
 .col-contant p {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.7;
-  margin-left: -4vw;
+  margin-left: -3vw;
   margin-right: 6vw;
 }
 
@@ -84,11 +84,17 @@ h3 {
   color: black;
   font-size: 15px;
   font-weight: 700;
-  margin-left: -4vw;
+  margin-left: -3vw;
 }
 
 a:hover {
   color: brown;
+}
+
+.work-link {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .col-above {
