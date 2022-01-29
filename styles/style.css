@@ -1,20 +1,30 @@
 :root {
-  --content-color: #f7e6ad;
-  --pic-color: #f6d7a7;
+  --content-color: #e3f6f5;
+  --pic-color: #bae8e8;
+  --text-color: #272343;
+  --hover-color: #264e70;
   --content-font: "Rubik", sans-serif;
   --logo-font: "Londrina Outline", cursive;
 
-  /* font-family: "Fredericka the Great", cursive;
+  /* 
+  
+  * fdf5ca content  0e3a5d
+  *f6d7a7 pic fabba3
+  #fef7dc
+  f7e6ad
+  f6eabe
+  font-family: "Fredericka the Great", cursive;
   font-family: "Sacramento", cursive; */
 }
 
 /* body {
-  background-color: #f7f7f7;
+  color: #f7f7f7;
 } */
 
 h1,
 h3,
 .col-center p {
+  color: var(--text-color);
   font-family: var(--content-font);
 }
 
@@ -38,40 +48,60 @@ h3 {
 }
 
 .social-links {
-  color: black;
-  font-size: 2vh;
+  color: var(--text-color);
+  font-size: 2.5vh;
   padding: 1vh 1vw;
   text-decoration: none;
 }
 
 .col-logo {
+  color: var(--text-color);
   font-family: var(--logo-font);
-  font-size: 61px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 30vh;
-  margin-left: -3vw;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: -15vw;
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-top: 30vh; */
+  /* margin-left: -3vw; */
 }
 
-.logo {
+/* .logo {
+  color: var(--text-color);
   font-family: var(--logo-font);
-  font-size: 61px;
-  margin-left: -3vw;
-  margin-top: -3vh;
+  text-align: center;
+  font-size: 30px;
+  /* margin-left: 0.5vw; */
+/* margin-top: -3vh; */
+/* } */
+
+.personal-pic-above {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 48vh;
+}
+
+.personal-pic-bottom {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 10vh;
 }
 
 .col-contant h1 {
-  margin-left: -3vw;
+  margin-left: -4vw;
 }
 .col-contant h3 {
-  margin-left: -3vw;
+  margin-left: -4vw;
 }
 
 .col-contant p {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.7;
-  margin-left: -3vw;
+  margin-left: -4vw;
   margin-right: 6vw;
 }
 
@@ -81,35 +111,30 @@ h3 {
 }
 
 .contact-link {
-  color: black;
-  font-size: 15px;
+  color: var(--text-color);
+  font-size: 16px;
   font-weight: 700;
-  margin-left: -3vw;
+  margin-left: -4vw;
 }
 
 a:hover {
-  color: brown;
+  color: var(--hover-color);
 }
 
 .work-link {
-  color: black;
-  font-size: 12px;
+  color: var(--text-color);
+  font-size: 13px;
   font-weight: 700;
+  text-align: center;
+  margin-top: 3vh;
 }
 
 .col-above {
-  padding: 7vh 0;
+  padding: 6vh 0;
 }
 
 .col-bottom {
-  padding: 8vh 0;
-}
-
-.Col-pic-above {
-  padding: 22vh 0;
-}
-.col-pic-bottom {
-  padding: 4vh 0;
+  padding: 3vh 0;
 }
 
 @media (max-width: 760px) {
