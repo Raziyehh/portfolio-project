@@ -1,25 +1,11 @@
 :root {
-  --content-color: #e3f6f5;
-  --pic-color: #bae8e8;
+  --content-color: #fdeeec;
+  --pic-color: #fcd5ce;
   --text-color: #272343;
-  --hover-color: #264e70;
+  --hover-color: #e5989b;
   --content-font: "Rubik", sans-serif;
   --logo-font: "Londrina Outline", cursive;
-
-  /* 
-  
-  * fdf5ca content  0e3a5d
-  *f6d7a7 pic fabba3
-  #fef7dc
-  f7e6ad
-  f6eabe
-  font-family: "Fredericka the Great", cursive;
-  font-family: "Sacramento", cursive; */
 }
-
-/* body {
-  color: #f7f7f7;
-} */
 
 h1,
 h3,
@@ -39,6 +25,26 @@ h3 {
   font-weight: 400;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 6vw;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+.col-above {
+  padding: 6vh 0;
+}
+
+.col-bottom {
+  padding: 5vh 0;
+}
+
 .pic-color {
   background-color: var(--pic-color);
 }
@@ -47,26 +53,10 @@ h3 {
   background-color: var(--content-color);
 }
 
-ul {
-  list-style-type: none;
-}
-li {
-  margin-left: 13vh;
-}
-
 .social-links {
   color: var(--text-color);
   font-size: 2.5vh;
   text-decoration: none;
-}
-
-.col-logo {
-  color: var(--text-color);
-  font-family: var(--logo-font);
-  font-size: 40px;
-  font-weight: 600;
-  margin-left: -15vw;
-  text-align: center;
 }
 
 .personal-pic-above {
@@ -86,6 +76,7 @@ li {
 .col-contant h1 {
   margin-left: -4vw;
 }
+
 .col-contant h3 {
   margin-left: -4vw;
 }
@@ -110,8 +101,13 @@ li {
   margin-left: -4vw;
 }
 
-a:hover {
-  color: var(--hover-color);
+.col-logo {
+  color: var(--text-color);
+  font-family: var(--logo-font);
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: -6vw;
+  text-align: center;
 }
 
 .work-link {
@@ -119,40 +115,85 @@ a:hover {
   font-size: 13px;
   font-weight: 700;
   text-align: center;
-  margin-top: 3vh;
+  margin-left: 4vw;
 }
 
-.col-above {
-  padding: 6vh 0;
-}
+@media (max-width: 960px) {
+  li {
+    margin-left: 5vw;
+  }
 
-.col-bottom {
-  padding: 3vh 0;
-}
+  .social-section {
+    background-color: #ffff;
+    height: 10vh;
+    width: 33%;
+  }
 
-@media (max-width: 760px) {
+  .social-links {
+    font-size: 1.5vh;
+  }
+
   .navbar-section {
-    height: 20vh;
-    width: 100%;
+    height: 10vh;
+    width: 67%;
+  }
+
+  .pic-container {
+    background-color: var(--content-color);
+    height: 50vh;
+    width: 33%;
+  }
+
+  .Col-pic-above {
+    background-color: var(--content-color);
+    margin: 3vh -1vw 0 1vw;
+  }
+
+  .personal-pic-above {
+    background-color: var(--pic-color);
+    display: block;
+    height: 17vh;
+    width: auto;
+    border: none;
+    border-radius: 50%;
   }
 
   .col-contant {
-    height: 80vh;
-    width: 100%;
-    text-align: center;
+    height: 50vh;
+    width: 67%;
   }
 
   .col-contant h1 {
-    margin: 1vh 1vw;
+    margin-left: 1vw;
+    font-size: 26px;
   }
+
   .col-contant h3 {
+    font-size: 16px;
+    margin: 2vh 1vw;
+  }
+
+  .col-contant p {
+    font-size: 13px;
+    line-height: 1.5;
     margin: 1vh 1vw;
   }
-  .col-contant p {
-    margin: 5vh 4vw;
+
+  .SheCodes-logo {
+    width: 10vw;
   }
 
   .contact-link {
+    font-size: 13px;
     margin-left: 1vw;
+  }
+
+  .col-bottom {
+    padding-top: 2vh;
+    text-align: center;
+  }
+
+  .work-link {
+    font-size: 9px;
   }
 }
