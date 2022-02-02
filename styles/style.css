@@ -36,6 +36,9 @@ li {
 a:hover {
   color: var(--hover-color);
 }
+img {
+  pointer-events: none;
+}
 
 .col-above {
   padding: 6vh 0;
