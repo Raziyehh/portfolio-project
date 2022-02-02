@@ -118,6 +118,18 @@ a:hover {
   margin-left: 4vw;
 }
 
+.about-work-link {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.about-person-picture {
+  border-radius: 7px;
+  max-width: 90%;
+  height: auto;
+}
+
 @media (max-width: 960px) {
   li {
     margin-left: 5vw;
@@ -163,17 +175,20 @@ a:hover {
     width: 67%;
   }
 
-  .col-contant h1 {
+  .col-contant h1,
+  .about-page h1 {
     margin-left: 1vw;
     font-size: 26px;
   }
 
-  .col-contant h3 {
+  .col-contant h3,
+  .about-page h3 {
     font-size: 16px;
     margin: 2vh 1vw;
   }
 
-  .col-contant p {
+  .col-contant p,
+  .about-page p {
     font-size: 13px;
     line-height: 1.5;
     margin: 1vh 1vw;
@@ -183,7 +198,8 @@ a:hover {
     width: 10vw;
   }
 
-  .contact-link {
+  .contact-link,
+  .about-work-link {
     font-size: 13px;
     margin-left: 1vw;
   }
@@ -195,5 +211,26 @@ a:hover {
 
   .work-link {
     font-size: 9px;
+  }
+
+  .about-page {
+    margin: 1vh 3vw 1vh;
+    text-align: center;
+  }
+
+  .about-page p {
+    font-size: 13px;
+    line-height: 1.8;
+    margin: 1vh 1vw;
+  }
+
+  .about-work-link {
+    font-size: 13px;
+    margin: 2vh 1vw;
+  }
+
+  .about-person-picture {
+    margin-top: 3vh 0;
+    max-width: 90%;
   }
 }
