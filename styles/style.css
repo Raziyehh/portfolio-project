@@ -7,6 +7,10 @@
   --logo-font: "Londrina Outline", cursive;
 }
 
+.navbar-section {
+  background-color: brown;
+}
+
 h1,
 h3,
 .col-center p {
